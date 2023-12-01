@@ -35,7 +35,7 @@
             homeButton : true,
             vrButton : false,
             geocoder : true,
-            sceneModePicker : faise,
+            sceneModePicker : false,
             navigationHelpButton : true
      });
     </script>
