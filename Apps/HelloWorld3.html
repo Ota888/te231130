@@ -28,9 +28,9 @@
   <body>
     <div id="cesiumContainer"></div>
     <script>
-      var viewer = new Cesium.Viewer("cesiumContainer");
+      var veiwer = new Cesium.Veiwer("cesiumContainer");
 
-      var polygon = viewer.entities.add({
+      var polygon = veiwer.entities.add({
           name:"東京都庁",
           description:"ここは東京都庁です。",
           polygon : {
@@ -48,7 +48,7 @@
           }
       });
 
-      viewer.camera.flyTo({
+      veiwer.camera.flyTo({
           destination: Cesium.Cartesian3.fromDegrees(139.691734969185, 35.689513446065, 1000.0),
       });
 
