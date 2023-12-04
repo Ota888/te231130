@@ -33,8 +33,8 @@
       var redLine = viewer.entities.add({
           name:"荒川",
           description:"ここは荒川です。",
-          polyline: {
-              postions : Cesium.Cartesian3.fromDegreesArrayHeights([
+          polyline : {
+              positions : Cesium.Cartesian3.fromDegreesArrayHeights([
                  139.84485787044892, 35.64293049276087, 0,
                  139.84736085429955, 35.67601793087133, 0,
                  139.85731465047442, 35.69241759981489, 0,
