@@ -36,7 +36,7 @@
           position : Cesium.Cartesian3.fromDegrees(139.7145,35.6779,0),
           point : {
               pixelSize : 10,
-              color : Cesium.Color.BLUE
+              color : Cesium.Color.BLUE,
           }
       });
 
