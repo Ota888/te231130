@@ -32,7 +32,7 @@
           terrainProvider: Cesium.createWorldTerrain()
       });
 
-      viewer.homeButton.viewModel.command.beforeExecute.addEvenrListener(
+      viewer.homeButton.viewModel.command.beforeExecute.addEventListener(
           function(e){
               e.cancel = true;
               viewer.camera.flyTo({
@@ -44,7 +44,7 @@
                   }
               });
           }
-      });
+      );
 
 
       viewer.entities.add({
