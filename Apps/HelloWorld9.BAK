@@ -29,7 +29,7 @@
     <div id="cesiumContainer"></div>
     <script>
       var viewer = new Cesium.Viewer("cesiumContainer",{
-          terrainProvider: Cesium.createWorldTerrain()
+          terrainProvider: Cesium.createWorldTerrain(),
       });
 
       viewer.homeButton.viewModel.command.beforeExecute.addEventListener(
@@ -41,7 +41,7 @@
                       heading : Cesium.Math.toRadians(0.0),
                       pitch : Cesium.Math.toRadians(-15.0),
                       roll : 0.0,
-                  }
+                  },
               });
           }
       );
@@ -51,7 +51,7 @@
          position: Cesium.Cartesian3.fromDegrees(138.7311, 35.3629, 4000),
          label: {
            text: "富士山",
-         }
+         },
       });
 
       var polygon = viewer.entities.add({
