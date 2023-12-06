@@ -48,7 +48,7 @@
 
 
       viewer.entities.add({
-         postion: Cesium.Cartesian3.fromDegrees(138.7311, 35.3629, 4000),
+         position: Cesium.Cartesian3.fromDegrees(138.7311, 35.3629, 4000),
          label: {
            text: "富士山"
          }
