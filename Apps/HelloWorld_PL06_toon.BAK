@@ -21,7 +21,7 @@
     );
     // ①建物モデルの追加
     var your_3d_tiles =viewer.scene.primitives.add(new Cesium.Cesium3DTileset({
-      url : 'https://assets.cms.plateau.reearth.io/assets/89/0303c6-1216-4a19-a91b-5233b85166ce/36201_tokushima-shi_city_2023_citygml_1_op_bldg_3dtiles_lod1/tileset.json'
+      url : 'https://assets.cms.plateau.reearth.io/assets/4f/a4f3fe-d75d-42d1-90af-c4240388f279/38215_toon-shi_city_2023_citygml_1_op_bldg_3dtiles_lod1/tileset.json'
     }));
     // ②カメラのズーム
     viewer.flyTo(your_3d_tiles);
